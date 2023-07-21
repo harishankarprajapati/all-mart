@@ -6,6 +6,108 @@
 		width: 1720px;
 	}
 }
+@media only screen and (max-width:767px){
+
+.sec-brand-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sec-space-left-right {
+    padding: 0px 10px;
+}
+form#headform {
+    display: none;
+}
+.sec-ruight {
+    align-items: center;
+    display: flex;
+    justify-content:flex-start;
+        padding-top: 20px;
+}
+
+.sec-sppp-p {
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+}
+.sec-sppp-p2 {
+    margin: 0;
+    color: #9B9B9B;
+    font-size: 10px;
+}
+.bellnumbers {
+    position: absolute;
+    top: 6px;
+    background: #000;
+    color: #fff;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    height: 25px;
+    right: 0px;
+    left: 35px;
+}
+.sec-logo-img-2{
+text-align: center;
+}
+.owl-nav {
+    display: none;
+}
+.collapse:not(.show) {
+    display: block;
+}
+.sec-shop-le-m {
+    margin-left: -277px !important;
+}
+a.nav-link {
+    color: #FFF;
+    font-size: 16px;
+}
+.sec-slider-mar-2 {
+    padding: 10px 0px;
+}
+.sec-slider-mar {
+    margin: 10px 0px;
+}
+.sec-bgg-top {
+    padding: 40px 0px;
+}
+.secain-top-h , .sec-hea-main-h{
+    font-size: 25px;
+}
+.sec-add-btn-bg {
+    padding: 17px 13px;
+}
+.sec-fea-bg {
+    padding: 20px 0px;
+}
+.sec-hea-main-p {
+    font-size: 17px;
+}
+.sec-pro-name-h {
+    color: #000;
+    font-size: 16px;
+}
+.sec-add-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-height: 450px) {
