@@ -138,7 +138,7 @@ a.nav-link {
 }
 
 .sec-sloid-img {
-    width: 55% !important;
+    width: 90% !important;
     text-align: right;
     margin: auto;
 }
@@ -458,6 +458,9 @@ a.nav-link {
     border: 1px solid #000;
     background: #FFF;
 }
+img.sec-produtct-img {
+    width: 100%;
+}
 
 #subsec input.form-control {
     height: 47px !important;
@@ -466,7 +469,14 @@ a.nav-link {
 .sec-footer-logo {
     padding-bottom: 20px;
 }
-
+.sec-brand-name-p a{
+      text-decoration: none !important;
+}
+.sec-brand-name-p h5 {
+    color: #000;
+    text-decoration: none !important;
+    border: 0;
+}
 .sec-socal-flex {
     display: flex;
     float: right;
@@ -503,4 +513,66 @@ a.nav-link {
 .sec-pric-m2{
     padding: 30px;
     text-align: right;
+}
+.sec-ruight{
+    position: relative;
+}
+.bellnumbers{
+    position: absolute;
+    top: -10px;
+    background: #000;
+    color: #fff;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    height: 25px;
+    right: 0px;
+}
+td.cart-product-name a {
+    color: #605AA7;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+a.button.btn.btn-primary.float-right {
+    padding: 10px 25px;
+    border-radius: 0;
+    border: 0;
+    background: #605AA7;
+}
+button.btn.btn-primary.button-3d.button-black.nomargin.btn-sm {
+    padding: 10px 25px;
+    border-radius: 0;
+    border: 0;
+    background: #605AA7;
+}
+input.add-to-cart.btn.btn-primary {
+    padding: 10px 25px;
+    border-radius: 0;
+    border: 0;
+    background: #605AA7;
+}
+label {
+    font-size: 20px;
+}
+button#login-form-submit {
+    background: #605AA7;
+    padding: 10px 35px;
+    border: 0;
+    border-radius: 0;
+    font-size: 20px;
+}
+button#login-form-submit {
+    background: #605AA7;
+    border: 0;
+    padding: 10px 35px;
+    border-radius: 0;
+    font-size: 20px;
+}
+input#rf {
+    background: #605AA7;
+    border: 0;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 0;
 }
